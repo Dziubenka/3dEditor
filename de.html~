@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>3D Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./code.js"></script>
+    <script src="./de.js"></script>
+    <script src="./castle/castle.js"></script>
+  </head>
+  <body>
+    
+
+
+    <table>
+    <tr>
+    <td>
+    <button type="button" class="camera" id="0">Kamera 1</button>
+    </td>
+    <td>
+    <button type="button" class="camera" id="18">Kamera 2</button> 
+    </td>
+    <td>
+    <button type="button" class="camera" id="36">Kamera 3</button> 
+    </td>
+    <td>
+    <button type="button" class="camera" id="54">Kamera 4</button>
+    </td>
+    <td>
+     <button type="button" id="br">Drehen</button>
+    </td>
+    <td rowspan="2">
+	
+
+	<div id="statusloader">Wird geladen</div>
+
+	<p>Benutzen Sie w,a,s,d um den gelben Cursor in der Ebene zu bewegen und i,k zum Heben/Senken.
+    Wählen Sie eine Sorte von Steinen in der zweiten Reihe.
+    Es gibt 5 Sorten von Steinen.
+    Drücken Sie p um den Stein im Raum zu platzieren/löschen.
+
+    <br>
+    <a href="http://dziubenka.co.uk/de/editor.html">Zurück zur Startseite</a>
+    </p>
+
+    </td>
+    
+    </tr>
+    
+    <tr>
+    <td>
+    <img src="./cube/cube0.png" width="96" height="54" class="brick" id="0"/>
+    </td>
+    <td>
+    <img src="./water/cube0.png" width="96" height="54" class="brick" id="2"/>
+    </td>
+    <td>
+    <img src="./cylinder/cube0.png" width="96" height="54" class="brick" id="3"/>
+    </td>
+    
+    <td>
+    <img src="./roof1/cube0.png" width="96" height="54" class="brick" id="4"/>
+    </td>
+    
+    <td>
+     <img src="./roof2/cube0.png" width="96" height="54" class="brick" id="5"/>
+    </td>
+    </tr>
+
+
+    
+    </table>
+     
+    
+    
+    
+   
+    
+    
+    
+  
+   
+    
+    <canvas id="canv" width="800" height="600">
+    	Der Browser unterstützt HTML5 nicht. Öffnen Sie bitte diese Seite in Chrome oder Firefox.
+    </canvas>
+    
+    
+    
+  </body>
+</html>

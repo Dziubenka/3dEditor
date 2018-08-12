@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>3D Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./code.js"></script>
+    <script src="./en.js"></script>
+    <script src="./castle/castle.js"></script>
+  </head>
+  <body>
+    
+
+
+    <table>
+    <tr>
+    <td>
+    <button type="button" class="camera" id="0">Camera 1</button>
+    </td>
+    <td>
+    <button type="button" class="camera" id="18">Camera 2</button> 
+    </td>
+    <td>
+    <button type="button" class="camera" id="36">Camera 3</button> 
+    </td>
+    <td>
+    <button type="button" class="camera" id="54">Camera 4</button>
+    </td>
+    <td>
+     <button type="button" id="br">Rotate</button>
+    </td>
+    <td rowspan="2">
+	
+
+	<div id="statusloader">Loading</div>
+
+	<p>
+	
+    Use w,a,s,d to move the yellow cursor arround and i,k for up and down.
+    Choose a type of brick from the second row.
+    There are 5 types of brick.
+    Press p to place/remove the brick.
+    <br>
+    <a href="http://dziubenka.co.uk/editor.html" class="textref">Back to Homepage</a>
+    </p>
+    </td>
+    
+    </tr>
+    
+    <tr>
+    <td>
+    <img src="./cube/cube0.png" width="96" height="54" class="brick" id="0"/>
+    </td>
+    <td>
+    <img src="./water/cube0.png" width="96" height="54" class="brick" id="2"/>
+    </td>
+    <td>
+    <img src="./cylinder/cube0.png" width="96" height="54" class="brick" id="3"/>
+    </td>
+    
+    <td>
+    <img src="./roof1/cube0.png" width="96" height="54" class="brick" id="4"/>
+    </td>
+    
+    <td>
+     <img src="./roof2/cube0.png" width="96" height="54" class="brick" id="5"/>
+    </td>
+    </tr>
+
+
+    
+    </table>
+     
+    
+    
+    
+   
+    
+    
+    
+  
+   
+    
+    <canvas id="canv" width="800" height="600">
+    	Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    
+    
+    
+  </body>
+</html>
